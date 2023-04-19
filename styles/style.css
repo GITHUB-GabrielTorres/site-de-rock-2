@@ -3,21 +3,49 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 body{
-    
+    background-color: rgb(226, 226, 226);
 }
 header {
 position: relative;
 }
-#nome_do_site {
-position: absolute;
-color: red;
+
+#container_nome_do_site{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    position: relative;
+    top: 100px;
 }
-#imagem_do_banner {
+#nome_do_site{
+    position: absolute;
+    color: rgb(218, 218, 218);
+    font-size: 6em;
+
+    text-shadow: 3px 3px 2px rgba(5, 5, 5, 0.185);
+    width: 100%;
     object-fit: cover;
-    object-position: 0px 13%;
-    margin: 10px;
+}
+#container_imagem_do_banner{
+    height: 500px;
+    background-color: gold;
+    margin: 5px 20px;
+    position: relative;
+}
+#imagem_do_banner{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0px 43%;
+}
+
+#imagem_do_banner, #container_imagem_do_banner{
+    border-radius: 15px 15px 0px 0px;
+}
+.teste{
+    margin: 20px;
 }
 main{
 
