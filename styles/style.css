@@ -1,13 +1,23 @@
 @charset "UTF-8";
 
 *{
-
+    padding: 0;
+    margin: 0;
 }
 body{
     
 }
-head{
-    
+header {
+position: relative;
+}
+#nome_do_site {
+position: absolute;
+color: red;
+}
+#imagem_do_banner {
+    object-fit: cover;
+    object-position: 0px 13%;
+    margin: 10px;
 }
 main{
 
