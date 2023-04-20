@@ -11,13 +11,22 @@ body{
 header {
 position: relative;
 }
+#nav_menu{
+    position: relative;
+    height: 25px;
+    margin: 0px 20px 20px 20px;
+    background-color: #411a1d;
+}
+#menu_opcoes{
+    position: absolute;
+}
 #container_imagem_do_banner, #imagem_do_banner{
     border-radius: 30px 30px 0px 0px;
 }
 #container_imagem_do_banner{
     position: relative;
     height: 400px;
-    margin: 20px;
+    margin: 20px 20px 0px 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.281);
     transform: scale(1) !important;
 }
